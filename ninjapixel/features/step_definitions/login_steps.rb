@@ -27,8 +27,9 @@ Quando("eu submeto minhas credenciais {string} com senha inválida {string}") do
     find("input[name=password]").set incorrect_pass
     click_button "Entrar"
 end
-  
-  Então("devo ver uma mensagem de alerta {string}") do |erro_senha|
+
+# Erro Usuário e/ou senha inválidos
+Então("devo ver uma mensagem de alerta {string}") do |erro_senha|
     logged_user_erro = find(".card-body .alert span").text
     expect(logged_user_erro).to eql erro_senha
 end
@@ -38,7 +39,6 @@ Quando("eu submeto minhas credenciais com email não cadastrado {string} com sen
     find("#emailId").set incorrect_email
     find("input[name=password]").set password
     click_button "Entrar"
-    sleep 2
 end
   
 
