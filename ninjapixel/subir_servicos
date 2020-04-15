@@ -1,0 +1,17 @@
+START DAS APP's:
+
+Verificar Containers Ativos:
+docker ps 
+
+Verificar Containers desligados:
+docker ps -a
+
+Subir Banco:
+docker start pgdb
+docker start pgadmin
+
+Subir API:
+docker start pixel-api
+
+Subir Aplicação:
+docker start pixel-web

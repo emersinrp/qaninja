@@ -1,0 +1,13 @@
+Roboweek.
+
+-No diretorio do projeto subir o banco:
+rails db:migrate
+
+-Subir página: 
+rails s
+
+-Executar testes (com tag):
+robot -d ./log -i smoke tests/cadastro.robot 
+
+-Executar testes (sem tag):
+robot -d ./log tests/cadastro.robot 
