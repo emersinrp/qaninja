@@ -5,7 +5,7 @@ Funcionalidade: Cadastro de produtos
     Sendo um administrador de catálogo
     Posso cadastrar um novo produto
 
-    @auth @doing
+    @auth @smoke
     Cenario: Novo produto
 
         Dado que eu tenho o seguinte produto:

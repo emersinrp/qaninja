@@ -3,6 +3,7 @@ Before do
     page.current_window.resize_to(1024, 768)
 
     @login_page = LoginPage.new
+    @product_page = ProductPage.new
     @side = Sidebar.new
 end
 
