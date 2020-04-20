@@ -11,6 +11,6 @@ Então("devo ser autenticado") do
     expect(@side.logged_user).to eql "Emerson"
 end
   
-Então("devo ver uma mensagem de alerta {string}") do |expect_alert|
+Então("devo ver uma msg de alerta {string}") do |expect_alert|
     expect(@login_page.alert).to eql expect_alert
 end
