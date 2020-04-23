@@ -5,7 +5,7 @@ end
 Quando("eu submeto minhas credenciais {string} e {string}") do |email, password|
     # O hastag é para buscar um elemento pelo ID (Inspecione o elemento para ver)
     @login_page.with(email, password)
-end
+ end
   
 Então("devo ser autenticado") do
     expect(@side.logged_user).to eql "Emerson"
