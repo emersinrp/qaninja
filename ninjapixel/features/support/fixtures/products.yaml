@@ -1,0 +1,12 @@
+mario_bros:
+  nome: Super Mario Bros
+  categoria: Nintendo
+  preco: 19.99
+  descricao: Um jogo muito difícil de terminar!
+  imagem: mario1.jpg
+streetf2:
+  nome: Street Fighter II
+  categoria: Super Nintendo
+  preco: 99.99
+  descricao: Um jogo com muita treta de rua.
+  imagem: streetf2.jpg
